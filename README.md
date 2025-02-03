@@ -1,9 +1,10 @@
 # AzureRedirector
 A C# project that builds a web application which redirects all HTTPS traffic.
 
-## AzureWebsites
+## Why?
 
-I noticed that building an Azure Redirector requires multiple steps. I found out that some projects utilized an outdated .NET package version 3.1, added some small updates and now this one uses version 9.0.
+While working on Azure Redirectors I've noticed that they all require multiple steps and was a tedious manual task.
+I also found that some projects that made this automated utilized an outdated .NET core package version 3.1, added some small updates and now this one uses version 9.0.
 
 ### Build
 Building the C# DLL is as simple as loading it into your Visual Studio, changing the IP located in the `ReverseProxy.cs` file, and then compiling.
